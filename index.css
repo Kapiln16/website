@@ -52,21 +52,30 @@ body {
     font-style: oblique;
 }
 
-.a {
-
-    font-size: 20px;
-    color: aqua;
-
+@keyframes typing {
+  from { width: 0; }
+  to { width: 100%; }
 }
 
-.bot {
-    color: rgb(0, 229, 255);
-    animation: blink 1s infinite;
-    font-size: 25px;
-    margin-top: -26px;
-    margin-left: 387px;
-    margin-bottom: 10px;
+.a{
+  font-family: monospace;
+  overflow: hidden;
+  white-space: nowrap;
+  border-right: 2px solid black; /* Simulates a cursor */
+  display: inline-block;
+  animation: typing 3s steps(40, end) forwards infinite;
+  font-size: 15px;
+  color: aqua;
+  font-family: "Press Start 2P", system-ui;
+  font-weight: 200;
+  font-optical-sizing: auto;
+  max-width: 70%;
 }
+
+
+
+
+
 
 @keyframes blink {
     0% {
@@ -102,9 +111,9 @@ body {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-    width: 50vw;
     padding: 20px;
-    margin-top: 400px;
+    margin-top: 450px;
+    max-width: 65vw;
 
 }
 
@@ -150,7 +159,7 @@ body {
 
 .down-arrow {
     position: absolute;
-    top: calc(100vh - 60px);
+    top: calc(80vh - 60px);
     left: calc(50% - 14px);
     width: 0;
     height: 30px;
@@ -212,8 +221,8 @@ body {
     padding: 10px;
 }
 .flex-container>div {
-    margin: 10px;
-    padding: 20px;
+    margin: 7px;
+    padding: 1vw;
     font-size: 20px;
     width: 150px;
     height: 30px;
