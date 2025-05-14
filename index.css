@@ -322,3 +322,52 @@ footer {
     font-size: 10px;
     text-align: center;
 }
+
+.project{
+    font-family: "Press Start 2P", system-ui;
+    font-weight: 400;
+    font-style: normal;
+    color:aliceblue;
+    padding: 10px;
+}
+
+.projectid{
+   font-size: 30px;
+   color: aqua;
+}
+
+.gitflex{
+    display: flex;
+      width: 57vw;
+    padding: 10px;
+    flex-wrap: wrap ;
+}
+
+
+.gitflex>div{
+    margin: 10px;
+    padding: 1vw;
+    font-size: 15px;
+    width:150px;
+    height: auto;
+    border: solid grey 1px;
+    color: rgb(154, 155, 157);
+    font-style: normal;
+    text-align: center;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    
+
+}
+
+.python:hover{
+    color: aqua;
+    border-color: aqua;
+    
+
+}
+.JavaScript:hover{
+    color: aqua;
+    border-color: aqua;
+
+}
