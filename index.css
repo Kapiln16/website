@@ -379,7 +379,7 @@ footer {
     text-align: center;
     transition-timing-function: ease-in-out;
     transition-duration: .5s;
-    
+    font-size: 15px;
 }
 
 .clickme:hover{
