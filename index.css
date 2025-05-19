@@ -275,11 +275,10 @@ body {
     border-color: aqua;
 }
 
-.cplus:hover {
+.figma:hover {
     color: aqua;
     border-color: aqua;
 }
-
 
 .contact {
     font-family: "Press Start 2P", system-ui;
@@ -373,7 +372,16 @@ footer {
 }
 
 .clickme{
-    color: black;
+    color: rgb(154, 155, 157);
     width: 30px;
     height: 30px;
+    text-decoration: none;
+    text-align: center;
+    transition-timing-function: ease-in-out;
+    transition-duration: .5s;
+    
+}
+
+.clickme:hover{
+    color: aqua;
 }
