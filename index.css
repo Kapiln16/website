@@ -78,7 +78,7 @@ body {
   font-family: "Press Start 2P", system-ui;
   font-weight: 200;
   font-optical-sizing: auto;
-  max-width: 60%;
+  max-width: 70%;
 }
 
 
@@ -342,4 +342,21 @@ footer {
     height: 100px;
     font-size: 10px;
     text-align: center;
+}
+
+.navbar{
+    list-style: none;
+    display: inline;
+    float: right;
+    margin: 10px;
+    font-size: 11px;
+    position: relative;
+    top: -30px;
+}
+
+#homebar:hover{
+    color: aqua;
+}
+#contactbar:hover{
+    color: aqua;
 }
