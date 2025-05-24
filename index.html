@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Main Page</title>
-    <link rel="icon" type="image/x-icon" href="favicon.ico">
+    <link rel="icon" type="image/x-icon" href="favicon_io (1)/favicon.ico">
     <link rel="stylesheet" href="index.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -23,6 +23,11 @@
     <main>
         <div class="headbar">
             <h2 id="namebar">KAPIL.NEELA</h2>
+            <nav class="navbar">
+                    <li id="contactbar"class="navbar" onclick="contactswipe()">Contact</li>
+                    <li id="homebar"class="navbar" onclick="homeswipe()">Home</li>
+    
+            </nav>
 
         </div>
 
@@ -39,7 +44,8 @@
                 Contributing in Python DSA ✨
             </section>
             </p>
-            <div><label for="explorebtn" class="explorebtn">Explore</label></div>
+            <br>
+            <div><label for="explorebtn" class="explorebtn" onclick="scrollWin()">Explore</label></div>
         </div>
 
         <div class="down-arrow" onclick="scrollWin()"> </div>
@@ -110,6 +116,12 @@
     <script>
         function scrollWin() {
             window.scrollBy(0, 700);
+        }
+        function contactswipe() {
+            window.scrollBy(0, 2100);
+        }
+        function homeswipe() {
+            window.scrollBy(0,-2100);
         }
     </script>
 </body>
