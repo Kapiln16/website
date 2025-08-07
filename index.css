@@ -102,6 +102,7 @@ body {
 
 
 .b {
+   font-family: "VT323", monospace;
     font-size: 15px;
     padding: 10px;
     display: inline-block;
@@ -360,3 +361,4 @@ footer {
 #contactbar:hover{
     color: aqua;
 }
+
